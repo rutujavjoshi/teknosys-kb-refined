@@ -1,0 +1,49 @@
+site_name: Teknosys Knowledge Base
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+
+  - test Foundations:
+      - Lifecycle & Models: foundations/lifecycle.md
+      - Audience Analysis: foundations/audience.md
+      - Document Types: foundations/doc-types.md
+
+  - Content Design & Development:
+      - Structuring Content: content/structuring.md
+      - Cognitive & Visual Design: content/design.md
+      - Style Guide: content/style.md
+
+  - Advanced Writing & Specialization:
+      - API Documentation: advanced/api.md
+      - Information Architecture: advanced/ia.md
+      - Minimalist Writing: advanced/minimalism.md
+
+  - Tools & Technology:
+      - Authoring Tools: tools/authoring.md
+      - Collaboration: tools/collaboration.md
+      - Publishing: tools/publishing.md
+
+  - Professional Readiness:
+      - Soft Skills: professional/softskills.md
+      - Review & Quality: professional/quality.md
+      - Career Growth: professional/career.md
+
+  - Emerging Trends:
+      - AI in Documentation: trends/ai.md
+      - Docs-as-Code: trends/docs-as-code.md
+      - Personalization: trends/personalization.md
+
+plugins:
+  - search
