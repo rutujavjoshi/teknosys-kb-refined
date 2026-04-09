@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <div class="top-banner">
+    <img src="{{ config.site_url | default('/') }}assets/cover_image.jpg" alt="Banner">
+  </div>
+  {{ super() }}
+{% endblock %}

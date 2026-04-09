@@ -1,0 +1,186 @@
+/* =========================
+   GOOGLE MATERIAL ICONS
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap');
+
+/* =========================
+   GLOBAL
+========================= */
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.md-main__inner {
+  max-width: 1300px;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  text-align: center;
+  padding: 1.2rem 0.5rem 0.8rem;   /* tighter vertical space */
+  background: linear-gradient(180deg, #edf4ff, #ffffff);
+  border-bottom: 1px solid #d6e2f0;
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+  color: #0f2a44;
+  margin: 0.2rem 0 0.3rem;        /* remove default gaps */
+  line-height: 1.2;
+}
+
+.hero p {
+  color: #5f6b7a;
+  margin: 0 0 0.8rem;            
+}
+
+
+/* CENTER SEARCH (CONNECTED TO REAL SEARCH) */
+
+/*.hero-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  width: 60%;
+  max-width: 520px;
+  margin: auto;
+
+  padding: 0.7rem 1rem;
+  border: 1px solid #cfd8e3;
+  border-radius: 8px;
+  background: white;
+
+  cursor: text;
+}
+
+.hero-search input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 0.95rem;
+}*/
+
+.material-symbols-outlined {
+  font-size: 20px;
+  color: #0f62fe;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+/* =========================
+   CARDS (PROFESSIONAL COLORS)
+========================= */
+
+.card {
+  padding: 1.4rem;
+  border-radius: 10px;
+  text-decoration: none;
+
+  color: #0f2a44;
+  border: 1px solid #d0d7e2;
+
+  transition: all 0.25s ease;
+}
+
+/* subtle colored backgrounds */
+.foundations { background: #edf4ff; }
+.content { background: #eef6f7; }
+.advanced { background: #f3f0ff; }
+.tools { background: #eef3f6; }
+.professional { background: #eef1ff; }
+.trends { background: #f5efff; }
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(15, 98, 254, 0.12);
+  border-color: #0f62fe;
+}
+
+.card h3 {
+  margin: 0.5rem 0 0.3rem;
+  font-size: 1.05rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #5f6b7a;
+}
+
+/* =========================
+   FOOTER FIX
+========================= */
+
+.md-footer {
+  background: #eaf1fb;
+  color: #1f2a37;
+}
+
+/* =========================
+   FOOTER TEXT COLOR FIX
+========================= */
+
+/* main footer text */
+.md-footer-meta,
+.md-footer-meta__inner {
+  color: #0f2a44;   /* deep blue (IBM-style) */
+}
+
+/* links inside footer */
+.md-footer-meta a {
+  color: #0f62fe ;
+}
+
+/* optional: slightly muted secondary text */
+.md-footer-meta small {
+  color: #4a5a6a;
+}
+
+
+/* REDUCE HEIGHT */
+
+.md-footer-nav {
+  padding: 0.5rem 1rem;
+}
+
+.md-footer-meta__inner {
+  padding: 0.3rem 1rem;
+  font-size: 0.75rem;
+}
+
+.md-footer__inner {
+  min-height: auto;
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 900px) {
+  .grid.cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-search {
+    width: 90%;
+  }
+}

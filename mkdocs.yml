@@ -1,21 +1,42 @@
-site_name: Teknosys Knowledge Base
+site_name: Teknosys Knowledge Hub
 
 theme:
   name: material
+  logo: assets/logo_image.png
+  favicon: assets/logo_image.png
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+
+  font:
+    text: IBM Plex Mono
+    code: IBM Plex Mono
+
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.footer
+    - search.highlight
+    - search.suggest
 
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
 
+extra_css:
+  - stylesheets/styles.css
+
+plugins:
+  - search
+
 nav:
   - Home: index.md
 
-  - test Foundations:
+  - Foundations:
       - Lifecycle & Models: foundations/lifecycle.md
       - Audience Analysis: foundations/audience.md
       - Document Types: foundations/doc-types.md
@@ -25,7 +46,7 @@ nav:
       - Cognitive & Visual Design: content/design.md
       - Style Guide: content/style.md
 
-  - Advanced Writing & Specialization:
+  - Advanced communication:
       - API Documentation: advanced/api.md
       - Information Architecture: advanced/ia.md
       - Minimalist Writing: advanced/minimalism.md
@@ -45,5 +66,7 @@ nav:
       - Docs-as-Code: trends/docs-as-code.md
       - Personalization: trends/personalization.md
 
-plugins:
-  - search
+extra:
+  generator: false
+
+copyright: "© 2026 Teknosys. All rights reserved. Contact owner for permissions."
