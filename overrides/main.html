@@ -1,8 +1,22 @@
+
 {% extends "base.html" %}
 
-{% block header %}
-  <div class="top-banner">
-    <img src="{{ config.site_url | default('/') }}assets/cover_image.jpg" alt="Banner">
-  </div>
+{% block content %}
+  {% if page.is_homepage %}
+
+    <div class="home-search-wrapper">
+      {% include "partials/search.html" %}
+    </div>
+
+  {% endif %}
+
   {{ super() }}
+{% endblock %}
+
+{% extends "base.html" %}
+
+{% block body %}
+  <body class="{% if page.is_homepage %}home{% endif %}">
+    {{ super() }}
+  </body>
 {% endblock %}

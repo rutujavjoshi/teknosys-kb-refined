@@ -2,7 +2,7 @@
 
 <div class="hero">
 
-  <h1>Teknosys Knowledge Hub</h1>
+  <h1>From concepts to execution in technical communication</h1>
   <p>Structured knowledge for technical communication</p>
 
 

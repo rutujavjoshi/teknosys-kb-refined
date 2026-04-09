@@ -1,9 +1,10 @@
-site_name: Teknosys Knowledge Hub
+site_name: Knowledge Hub
 
 theme:
   name: material
   logo: assets/logo_image.png
   favicon: assets/logo_image.png
+  #custom_dir: overrides
 
   palette:
     - scheme: default

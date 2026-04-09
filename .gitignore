@@ -1,0 +1,9 @@
+# MkDocs build output
+site/
+
+# Editor / OS noise
+.vscode/
+.DS_Store
+
+# Python cache
+__pycache__/
