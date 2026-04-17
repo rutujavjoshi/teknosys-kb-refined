@@ -4,7 +4,6 @@ theme:
   name: material
   logo: assets/logo_image.png
   favicon: assets/logo_image.png
-  #custom_dir: overrides
 
   palette:
     - scheme: default
@@ -37,35 +36,42 @@ plugins:
 nav:
   - Home: index.md
 
+  # 1. Foundations
   - Foundations:
-      - Lifecycle & Models: foundations/lifecycle.md
-      - Audience Analysis: foundations/audience.md
-      - Document Types: foundations/doc-types.md
+      - Documentation Lifecycle Models: foundations/lifecycle.md
+      - Audience & User Intent: foundations/audience.md
+      - Types of Documentation: foundations/doc-types.md
 
+  # 2. Content Design & Development
   - Content Design & Development:
-      - Structuring Content: content/structuring.md
-      - Cognitive & Visual Design: content/design.md
-      - Style Guide: content/style.md
+      - Task-Based Writing: content/task-writing.md
+      - Structuring for Readability: content/structuring.md
+      - Style & Consistency: content/style.md
 
-  - Advanced communication:
+  # 3. Advanced Writing & Architecture
+  - Advanced Communication:
       - API Documentation: advanced/api.md
       - Information Architecture: advanced/ia.md
-      - Minimalist Writing: advanced/minimalism.md
+      - Writing for Complex Systems: advanced/complex-systems.md
 
+  # 4. Tools & Technology
   - Tools & Technology:
       - Authoring Tools: tools/authoring.md
-      - Collaboration: tools/collaboration.md
-      - Publishing: tools/publishing.md
+      - Version Control & Collaboration: tools/collaboration.md
+      - Publishing Pipelines: tools/publishing.md
 
+  # 5. Professional Readiness
   - Professional Readiness:
-      - Soft Skills: professional/softskills.md
-      - Review & Quality: professional/quality.md
-      - Career Growth: professional/career.md
+      - Review & Quality Practices: professional/quality.md
+      - Workplace Communication: professional/workplace-communication.md
+      - Career Growth & Portfolio: professional/career.md
+      - Measurement & Analytics: professional/analytics.md
 
+  # 6. Emerging Trends
   - Emerging Trends:
       - AI in Documentation: trends/ai.md
-      - Docs-as-Code: trends/docs-as-code.md
-      - Personalization: trends/personalization.md
+      - Docs-as-Code Workflows: trends/docs-as-code.md
+      - Content Personalization: trends/personalization.md
 
 extra:
   generator: false

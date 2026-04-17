@@ -1,50 +1,93 @@
-# Review & Quality
+# Review & Quality Practices
 
-<span class="badge badge-intermediate">Intermediate</span>
+Writing is only the first step.
 
-## Overview
-Review ensures documentation is accurate, usable, and aligned with user needs.
-
----
-
-## Types of Review
-
-### Technical Review
-- Accuracy
-- Completeness
-- Correct terminology
-
-### Editorial Review
-- Grammar
-- Clarity
-- Consistency
-
-### Usability Review
-- Can users follow steps?
-- Is navigation intuitive?
+Quality is achieved through **review, refinement, and validation**.
 
 ---
 
-## Review Checklist
+## Why this matters
 
-- Are steps complete?
-- Are terms consistent?
-- Are examples correct?
-- Is formatting clean?
-
----
-
-## Common Issues
-
-- Missing steps
-- Too much jargon
-- Inconsistent terminology
-- Lack of examples
+- Ensures technical accuracy  
+- Improves clarity and usability  
+- Maintains consistency across documentation  
+- Builds trust with users  
 
 ---
 
-## Best Practices
+## The review process
 
-- Review early, not just at the end
-- Use checklists
-- Get feedback from actual users
+A typical documentation review flow:
+
+
+Draft → Self-review → SME review → Edit → Finalize
+
+
+---
+
+## Types of review
+
+### 1. Self-review
+
+Before sharing:
+- Check clarity  
+- Remove redundancy  
+- Ensure structure is consistent  
+
+---
+
+### 2. SME (Subject Matter Expert) review
+
+Focus:
+- Technical correctness  
+- Completeness  
+
+---
+
+### 3. Editorial review
+
+Focus:
+- Language  
+- Style  
+- Consistency  
+
+---
+
+## What to review for
+
+- Accuracy  
+- Clarity  
+- Structure  
+- Consistency  
+- Completeness  
+
+---
+
+## Common mistakes
+
+- Skipping review due to deadlines  
+- Treating SME review as final  
+- Ignoring usability issues  
+- Reviewing only for grammar  
+
+---
+
+## Practical guidance
+
+- Separate writing and reviewing phases  
+- Use checklists for consistency  
+- Keep feedback specific and actionable  
+- Treat review as collaboration, not correction  
+
+---
+
+## Related topics
+
+- [Style & Consistency](../content/style.md)  
+- [Workplace Communication](workplace-communication.md)  
+- [Measurement & Analytics](analytics.md)  
+
+---
+
+## Further reading
+
